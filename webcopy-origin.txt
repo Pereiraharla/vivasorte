@@ -1,0 +1,179 @@
+Uri: https://code.jquery.com/jquery-3.7.1.min.js
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\jquery-3.7.1.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\css2-6
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew--4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew--5.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew--4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w--4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w--5.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w--4.ttf
+Content Type: font/ttf
+
+Uri: https://sorteio-zeta.vercel.app/roleta/
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\roleta\roleta
+Content Type: text/html
+
+Uri: https://sorteio-zeta.vercel.app/roleta/images/logo.svg
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\roleta\images\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://sorteio-zeta.vercel.app/roleta/main.js
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\roleta\main.js
+Content Type: application/javascript
+
+Uri: https://sorteio-zeta.vercel.app/roleta/roulette.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\roleta\roulette.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/roleta/style.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\roleta\style.css
+Content Type: text/css
+
+JOt5-QNFgpCs16Ew--3.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew--4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw--3.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew--3.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w--3.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w--4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w--3.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew--3.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\s\montserrat\v30\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w--3.ttf
+Content Type: font/ttf
+
+Uri: https://sorteio-zeta.vercel.app/up1/css/bootstrap-icons.min.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\css\bootstrap-icons.min.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/up1/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/up1/css/rodape.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\css\rodape.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/up1/css/style.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\css\style.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/up1/css/table-titulo.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\css\table-titulo.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/up1/css/topo-branco.css
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\css\topo-branco.css
+Content Type: text/css
+
+Uri: https://sorteio-zeta.vercel.app/up1/fonts/bootstrap-icons.woff
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\fonts\bootstrap-icons.woff
+Content Type: font/woff
+
+Uri: https://sorteio-zeta.vercel.app/up1/fonts/bootstrap-icons.woff2
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\fonts\bootstrap-icons.woff2
+Content Type: font/woff2
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/121032-iphone-16-pro-max.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\121032-iphone-16-pro-max.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/check.svg
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\check.svg
+Content Type: image/svg+xml
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/Design-sem-nome.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\Design-sem-nome.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/edjdigital.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\edjdigital.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/logo.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\logo.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/pagamento.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\pagamento.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/T.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\T.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/viacap.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\viacap.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/viva-hosp.svg
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\viva-hosp.svg
+Content Type: image/svg+xml
+
+Uri: https://sorteio-zeta.vercel.app/up1/images/viva.png
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\images\viva.png
+Content Type: image/png
+
+Uri: https://sorteio-zeta.vercel.app/up1/index.html
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\index.html
+Content Type: text/html
+
+Uri: https://sorteio-zeta.vercel.app/up1/js/confetti.browser.min.js
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\js\confetti.browser.min.js
+Content Type: application/javascript
+
+Uri: https://sorteio-zeta.vercel.app/up1/js/latest.js
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\js\latest.js
+Content Type: application/javascript
+
+Uri: https://sorteio-zeta.vercel.app/up1/js/latest_1.js
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\js\latest_1.js
+Content Type: application/javascript
+
+Uri: https://sorteio-zeta.vercel.app/up1/js/latest_1_1.js
+File Name: C:\Downloaded Web Sites\sorteio-zeta.vercel.app\up1 (2)\js\latest_1_1.js
+Content Type: application/javascript
+

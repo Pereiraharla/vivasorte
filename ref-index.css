@@ -1,0 +1,17 @@
+﻿
+.draggable-wrapper[data-v-401bfad1] {
+    cursor: grab;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+}
+.draggable-wrapper[data-v-401bfad1]:active {
+    cursor: grabbing;
+}
+.draggable-wrapper--disabled[data-v-401bfad1] {
+    cursor: default;
+}
+.draggable-wrapper--disabled[data-v-401bfad1]:active {
+    cursor: default;
+}
+
