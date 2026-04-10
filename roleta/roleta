@@ -1,0 +1,58 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Roleta promocional - 25 anos Mercado Livre. Gire e ganhe descontos incríveis!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="roulette.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../css2-6?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Roleta Promocional - 25 Anos Mercado Livre</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "s1ckz5ksar");
+</script>
+    
+    <!-- Header moderno -->
+    <header class="header">
+        <img src="images/logo.svg" class="header-logo" alt="Logo 25 anos Mercado Livre">
+        <button class="menu-button" aria-label="Menu">
+            <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Container da roleta -->
+        <div class="roulette-section">
+            <span class="arrow"></span>
+            <div class="roleta" id="roleta">
+                <!-- Os segmentos serão criados dinamicamente pelo JavaScript -->
+            </div>
+            <button id="spin" class="spin-btn">GIRAR</button>
+        </div>
+
+        <!-- 🎯 BOTÃO PRINCIPAL PARA GIRAR - CENTRALIZADO E MAIOR -->
+        <div class="spin-button-section">
+            <button id="spin-bottom" class="spin-bottom-btn">
+                GIRE PARA GANHAR
+            </button>
+        </div>
+    </div>
+
+    <script src="../jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

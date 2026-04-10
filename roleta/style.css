@@ -1,0 +1,717 @@
+﻿@import url('../css2-6');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  max-width: 100%;
+  line-height: 1.6;
+}
+
+/* Header moderno */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #2f4eb5;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.menu-button:hover {
+  background: #f3f4f6;
+  color: #1e3a8a;
+}
+
+/* Container principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Seção promocional */
+.promo-section {
+  background: linear-gradient(90deg, #2f4eb5 70%, #4361c2 100%);
+  padding: 1.5rem;
+  color: white;
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(47, 78, 181, 0.2);
+}
+
+.promo-section h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.promo-section strong {
+  font-weight: 700;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Texto de boas-vindas */
+.welcome-text {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.welcome-text h1 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.welcome-text .highlight {
+  color: #2f4eb5;
+  font-weight: 700;
+}
+
+.welcome-text p {
+  color: #666;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Instruções */
+.instructions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.instruction-card {
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.instruction-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(47, 78, 181, 0.05), transparent);
+  transition: left 0.6s ease;
+}
+
+.instruction-card:hover::before {
+  left: 100%;
+}
+
+.instruction-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(47, 78, 181, 0.15);
+  border-color: #2f4eb5;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.instruction-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.instruction-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.instruction-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 🎯 SEÇÃO DO BOTÃO DE GIRAR EMBAIXO - CENTRALIZADO E MAIOR */
+.spin-button-section {
+  margin: 3rem 0;
+  text-align: center;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spin-bottom-btn {
+  background: linear-gradient(135deg, #2f4eb5 0%, #4361c2 100%);
+  border: none;
+  border-radius: 15px;
+  padding: 1.5rem 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 
+    0 8px 25px rgba(47, 78, 181, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 350px;
+  /* 🎯 ANIMAÇÃO DE PULSAR */
+  animation: buttonPulse 2s ease-in-out infinite;
+}
+
+/* 🎯 ANIMAÇÃO DE PULSAR DO BOTÃO */
+@keyframes buttonPulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 
+      0 8px 25px rgba(47, 78, 181, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+  50% { 
+    transform: scale(1.05);
+    box-shadow: 
+      0 12px 35px rgba(47, 78, 181, 0.4),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+}
+
+.spin-bottom-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.spin-bottom-btn:hover::before {
+  left: 100%;
+}
+
+.spin-bottom-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 
+    0 15px 40px rgba(47, 78, 181, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  animation: none; /* Para a animação de pulsar no hover */
+}
+
+.spin-bottom-btn:active:not(:disabled) {
+  transform: translateY(-1px) scale(1.01);
+  box-shadow: 
+    0 8px 25px rgba(47, 78, 181, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.spin-bottom-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background: linear-gradient(135deg, #9ca3af 0%, #d1d5db 100%);
+  color: #6b7280;
+  transform: none;
+  animation: none;
+  box-shadow: 
+    0 4px 15px rgba(156, 163, 175, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Popup modernizado */
+.popup-container {
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.popup {
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  max-width: 420px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 
+    0 25px 50px rgba(0, 0, 0, 0.2),
+    0 10px 25px rgba(47, 78, 181, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  animation: popupSlideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.popup::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2f4eb5, #4361c2, #6366f1);
+  background-size: 200% 100%;
+  animation: gradientMove 2s ease infinite;
+}
+
+@keyframes gradientMove {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes popupSlideIn {
+  from { 
+    transform: scale(0.8) translateY(-30px);
+    opacity: 0;
+  }
+  to { 
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.popup h2 {
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(135deg, #2f4eb5, #4361c2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.popup p {
+  color: #666;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+}
+
+.popup img {
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.popup img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* 🎯 ESTILOS PARA O POPUP DE SUCESSO */
+.success-popup {
+  max-width: 500px;
+  gap: 1.25rem;
+}
+
+.product-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid #e5e7eb;
+  width: 100%;
+}
+
+.product-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+.product-info {
+  text-align: center;
+  width: 100%;
+}
+
+.product-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* 🎯 NOVA MENSAGEM DE SUCESSO PERSONALIZADA */
+.success-message {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid #0ea5e9;
+  text-align: left;
+  width: 100%;
+}
+
+.success-message p {
+  color: #0c4a6e;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+.success-message p:first-child {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0369a1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.success-message strong {
+  color: #0369a1;
+  font-weight: 700;
+}
+
+/* Botão premium */
+.again-btn {
+  background: linear-gradient(135deg, #2f4eb5 0%, #4361c2 100%);
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 
+    0 8px 20px rgba(47, 78, 181, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.again-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.again-btn:hover::before {
+  left: 100%;
+}
+
+.again-btn:hover {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+  transform: translateY(-3px);
+  box-shadow: 
+    0 12px 30px rgba(47, 78, 181, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.again-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 
+    0 6px 15px rgba(47, 78, 181, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.popup-container.hidden {
+  display: none;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #f9fafb 0%, #f1f5f9 100%);
+  border-top: 1px solid #e5e7eb;
+  margin-top: 4rem;
+}
+
+.footer-content p {
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0.75rem 0;
+  font-weight: 400;
+}
+
+.footer-content a {
+  color: #2f4eb5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+}
+
+/* Responsividade aprimorada */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+  
+  .promo-section {
+    margin: 1rem 0;
+    padding: 1.25rem;
+  }
+  
+  .promo-section h2 {
+    font-size: 1.1rem;
+  }
+  
+  .welcome-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .welcome-text p {
+    font-size: 0.9rem;
+  }
+  
+  .instructions {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .instruction-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  /* 🎯 Responsividade do botão embaixo - TABLET */
+  .spin-bottom-btn {
+    padding: 1.3rem 3rem;
+    font-size: 1.1rem;
+    min-width: 300px;
+    letter-spacing: 1.5px;
+  }
+  
+  .popup {
+    width: 95%;
+    padding: 2rem 1.5rem;
+  }
+  
+  .popup h2 {
+    font-size: 1.4rem;
+  }
+  
+  .popup p {
+    font-size: 0.95rem;
+  }
+
+  /* 🎯 Responsividade do popup de produto - TABLET */
+  .success-popup {
+    max-width: 95%;
+  }
+  
+  .product-showcase {
+    padding: 1.25rem;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .product-name {
+    font-size: 1.1rem;
+  }
+
+  .success-message {
+    padding: 1.25rem;
+  }
+
+  .success-message p {
+    font-size: 0.9rem;
+  }
+
+  .success-message p:first-child {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.75rem;
+  }
+  
+  .header-logo {
+    height: 32px;
+  }
+  
+  .promo-section h2 {
+    font-size: 1rem;
+  }
+  
+  .welcome-text h1 {
+    font-size: 1.25rem;
+  }
+  
+  .welcome-text p {
+    font-size: 0.85rem;
+  }
+  
+  .instruction-card {
+    padding: 1.25rem 1rem;
+  }
+  
+  .instruction-card h3 {
+    font-size: 1.05rem;
+  }
+  
+  .instruction-card p {
+    font-size: 0.85rem;
+  }
+
+  /* 🎯 Mobile pequeno - botão embaixo */
+  .spin-bottom-btn {
+    padding: 1.1rem 2.5rem;
+    font-size: 1rem;
+    min-width: 280px;
+    letter-spacing: 1px;
+  }
+  
+  .popup {
+    width: 98%;
+    padding: 1.75rem 1.25rem;
+    gap: 1.25rem;
+  }
+  
+  .popup img {
+    width: 100px !important;
+  }
+
+  /* 🎯 Mobile pequeno - popup de produto */
+  .product-showcase {
+    padding: 1rem;
+  }
+  
+  .product-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .product-name {
+    font-size: 1rem;
+  }
+  
+  .success-message {
+    padding: 1rem;
+  }
+
+  .success-message p {
+    font-size: 0.85rem;
+  }
+
+  .success-message p:first-child {
+    font-size: 0.95rem;
+  }
+}
+
+/* Estados de foco para acessibilidade */
+.again-btn:focus,
+.menu-button:focus,
+.spin-bottom-btn:focus {
+  outline: 3px solid #2f4eb5;
+  outline-offset: 3px;
+}
+
+/* Melhorias de acessibilidade */
+@media (prefers-reduced-motion: reduce) {
+  .popup-container {
+    animation: none;
+  }
+  
+  .popup {
+    animation: none;
+  }
+
+  .spin-bottom-btn {
+    animation: none;
+  }
+  
+  * {
+    transition: none !important;
+  }
+}
